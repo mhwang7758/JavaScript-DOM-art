@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShowPictureTest</title>
+    <link rel="stylesheet" href="../css/layout.css"/>
+</head>
+
+
+<script type="text/javascript" src="../js/showPic.js"></script>
+
+<body>
+    <h1>SnapShots</h1>
+    <!--无序列表-->
+    <ul>
+        <li>
+            <a href="../images/ic1.jpg" title="picture1" onclick="showPic(this);
+            return false;">Picture1</a>
+        </li>
+        <li>
+            <a href="../images/ic2.jpg" title="picture2" onclick="showPic(this);
+            return false;">Picture2</a>
+        </li>
+        <li>
+            <a href="../images/ic3.jpg" title="picture3" onclick="showPic(this);">Picture3</a>
+        </li>
+        <li>
+            <a href="../images/ic4.jpg" title="picture4" onclick="showPic(this)">Picture4</a>
+        </li>
+    </ul>
+
+    <img src="../images/ic5.jpg" id="placeHolder" alt="my image gallery" />
+
+    <p id="description">图片描述</p>
+</body>
+
+</html>
